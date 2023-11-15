@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>screen width</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="available-width"></div>
+    <div id="color-depth"></div>
+    <div id="pixel-depth"></div>
+
+    <script>
+        document.getElementById("demo").innerHTML = "screen width : " + screen.width + "<br>" + "screen height : " + screen.height;
+
+        document.getElementById("available-width").innerHTML = "screen available Width : " + screen.availWidth + "<br>" + " screen available height : " +screen.height;
+
+        document.getElementById("color-depth").innerHTML = "Color-depth : " + screen.colorDepth
+
+        document.getElementById("pixel-depth").innerHTML = "Pixel-depth : " + screen.pixelDepth
+    </script>
+</body>
+</html>
