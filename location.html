@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/destination-concept-international-travel-journey-red-pointer-with-grey-world-map-inside_333792-53.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699747200&semt=ais" type="image/x-icon">
+    <style>
+        p{
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Window location Object </h1>
+    <p id="demo"></p>
+
+    <p id="host-name"></p>
+
+    <p id="path-name"></p>
+    
+    <p id="protocol"></p>
+
+    <p id="assign"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "The full URL is : <br>" + window.location.href;
+
+        document.getElementById("host-name").innerHTML = "Host Name is : <br> "+ window.location.hostname;
+
+        document.getElementById("path-name").innerHTML = "Path Name is : <br>" + window.location.pathname;
+
+        document.getElementById("protocol").innerHTML = "Protocol is : <br>" + window.location.protocol;
+
+        document.getElementById("assign").innerHTML = "Assign is : <br>" + window.location.assign;
+    </script>
+</body>
+</html>
